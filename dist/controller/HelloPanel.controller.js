@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast","sap/ui/core/Fragment"],function(o,e,l){"use strict";return o.extend("sap.ui.demo.walkthrough.controller.HelloPanel",{onShowHello:function(){e.show("Hello World")},onOpenDialog:function(){if(!this.pDialog){this.pDialog=this.loadFragment({name:"sap.ui.demo.walkthrough.view.HelloDialog"})}this.pDialog.then(function(o){o.open()})},onCloseDialog:function(){this.byId("helloDialog").close()}})});
+//# sourceMappingURL=HelloPanel.controller.js.map

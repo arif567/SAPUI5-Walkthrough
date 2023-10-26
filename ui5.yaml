@@ -5,3 +5,16 @@ type: application
 framework:
   name: SAPUI5
   version: "1.119.0"
+
+server:
+  customMiddleware:
+    - name: ui5-middleware-simpleproxy
+      afterMiddleware: compression
+      mountPath: /V2
+      configuration:
+       baseUri: "https://services.odata.org"
+
+
+
+
+

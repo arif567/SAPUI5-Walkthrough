@@ -1,0 +1,2 @@
+QUnit.config.autostart=false;sap.ui.getCore().attachInit(()=>{"use strict";sap.ui.require(["sap/ui/demo/walkthrough/localService/mockserver","sap/ui/demo/walkthrough/test/integration/NavigationJourney"],t=>{t.init();QUnit.start()})});
+//# sourceMappingURL=opaTests.qunit.js.map
